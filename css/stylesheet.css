@@ -1,0 +1,602 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Eric Meyers reset */
+
+/* My own basic stylesheet */ 
+
+
+
+body {
+	background-color: #FFFFFF;
+	background-image: url('../images/backgound.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: top;
+	height: 5500px;
+}
+
+
+h1 {
+	 font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	 font-size: 50pt;
+	 color: #7F7F7F;
+
+}
+
+h2 {
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	font-size: 36pt;
+	color: #7F7F7F;
+}
+
+h3 {
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	font-size: 24pt;
+	color: #7F7F7F;
+}
+
+h4 {
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	font-size: 21pt;
+	color: #7F7F7F;
+}
+
+h5 {
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	font-size: 18pt;
+	color: #7F7F7F;
+}
+
+h6 {
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	font-size: 14pt;
+	color: #7F7F7F;
+}
+
+p {
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #7F7F7F;
+
+}
+
+
+.button {
+	background-color: white;
+    border: none;
+    border: solid, black, 1px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.button:hover { 
+	background-color: #7F7F7F;
+
+}
+
+#container {
+	width: 1365px;
+	height: 5500px;
+	margin: 0 auto;
+}
+
+/* START Navigation */
+
+#nav {
+	width: 1365px;
+	height: 100px;
+	font-size: 15pt;
+	position: top;
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    float: center;
+    padding-top: 25px;
+    align-items: center;
+    background-color: #7F7F7F;
+
+}
+
+li {
+    float: right;
+    margin-top: 20px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-decoration: none;
+    width: 140px;
+
+}
+
+li a:hover {
+    background-color: #AFEEEE;
+    color: #7F7F7F;
+}
+
+
+/* END Nav */
+
+/*START Header*/
+
+#header {
+	width: 1365px;
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#logo {
+	background-image: url('../images/logo1.png');
+	background-position: top, center;
+	width: 737px;
+	height: 161px;
+	text-indent: -9999px; 
+	background-repeat: no-repeat;
+	margin-top: 157px;
+	margin-bottom: 157px;
+	margin-right: 314px;
+	margin-left: 314px;
+
+}
+
+/* END Header*/
+/* START Packages*/
+
+#pick { 
+	margin-left: 30px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	position: center;
+	text-align: left;
+
+
+
+}
+
+#packages {
+	width: 1365px;
+	height:1379px;
+	padding-top: 40px;
+}
+
+#japan {
+	width: 685px;
+	height: 457px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+#japan-text1 {
+	height: 457px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 25px;
+	text-align: right;
+	padding: right 100px;
+	color: #B3E0DC
+	letter-spacing: 3px;
+}
+
+#japan-text2 {
+	height: 457px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 25px;
+	text-align: left;
+	padding: right 100px;
+	letter-spacing: 2px;
+	kerning: 3px;
+	line-height: 30px;
+}
+
+
+#mexico {
+	width: 685px;
+	height: 457px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+#mexico-text1 {
+	height: 400px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 25px;
+	text-align: right;
+	padding: right 100px;
+	color: #B3E0DC
+	letter-spacing: 3px;
+
+
+}
+
+#mexico-text2 {
+	height: 400px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 25px;
+	text-align: left;
+	padding: right 100px;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+
+#scotland {
+	width: 685px;
+	height: 457px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+#scotland-text1 {
+	height: 457px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 25px;
+	text-align: right;
+	padding: right 100px;
+	color: #B3E0DC
+	letter-spacing: 3px;
+}
+
+
+#scotland-text2 {
+	height: 457px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 25px;
+	text-align: left;
+	padding: right 100px;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+/* END Packages*/
+
+/* START Blog */
+
+#blog {
+	height: 1295px;
+	width:1365px;
+	text-align: center;
+	align-items: right;
+
+}
+
+#discover { padding: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: #7F7F7F;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 30px;
+	
+}
+
+#alaska1 {
+	width: 668px;
+	height:588px;
+	align-items: left;
+	padding-right: 10px;
+}
+
+.hover-effect img{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition: filter 0.6s ease;
+	-webkit-transition: -webkit-filter 0.6s ease;
+}
+
+.hover-effect img:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+
+}
+
+#coffee1 {
+	width: 668px;
+	height:588px;
+	align-items: right;
+	padding-left: 10px;
+}
+
+#surf1 {
+	width:1365px;
+	height:588px;
+	align-items: center;
+	padding-top: 20px;
+}
+
+/* END Blog*/
+
+/* START About */
+
+#about-heading {
+	width:1365px; 
+	height:248px;
+	text-align: center;
+	background-color: #7F7F7F
+}
+
+#who-title {
+	color: white;
+	padding: 100px;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+#who {
+	height: 200px;
+	width:1365px;
+	text-align: center;
+	margin-top: 100px;
+	letter-spacing: 3px;
+	line-height: 35px;
+}
+
+#what {
+	height: 250px;
+	width:1365px;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 35px;
+}
+
+#why {
+	height: 200px;
+	width:1365px;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 35px;
+}
+
+/* END About */
+/* START book banner */
+
+#banner {
+	width: 1365px;
+	height: 150px;
+}
+
+
+
+
+#ready {
+	width: 1365px;
+	height: 50px;
+	margin-top: 130px;
+	margin-left: 500px;
+	
+
+}
+
+#book-button {
+	width: 1365px;
+	height: 125px;
+	margin-top: 10px;
+	margin-left: 600px;
+	align-items: center;
+
+}
+
+
+/* END Book Banner */
+/* START Reviews */
+#reviews-box {
+	height: 400px;
+	width: 1365px;
+
+}
+
+#join {
+	width: 405px;
+	height: 24px;
+	margin-top:105px;
+	margin-left: 471px;
+    margin-bottom:105px;
+	margin-right: 471px;
+}
+
+#reviews-headers {
+	height: 235px;
+	width: 1365px;
+	align-items: center;
+	margin-left: 200px;
+
+}
+
+section.content {
+	width: 1000px;
+	height: auto;
+	padding: 20px;
+
+}
+
+section.one-third a {
+	text-decoration: none;
+	color: #7F7F7F;
+}
+
+section.one-third a:hover {
+	text-decoration: none;
+	color: #AFEEEE;
+}
+
+section.one-third {
+	float: left;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	color: #7F7F7F
+	padding: 100px;
+	box-sizing: border-box;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.clearfix {
+	clear: both; 
+}
+/* START Link Style */
+a {
+	font-style: none;
+	background-color: #7F7F7F;
+}
+/* END Link Style */
+/* START Navigate to top of page button */
+
+#to-top-div {
+	width: 1365px;
+	height: 125px;
+	margin-top: 10px;
+	align-items: center;
+
+}
+
+#to-top {
+	width: 100px;
+	height: 125px;
+	margin-top: 10px;
+	align-items: center;
+	margin-left: 600px;
+	margin-right: 600px;
+}
+
+/* END Navigate to top of page button */
+
+/* START Footer */
+
+footer {
+	height: 100px;
+	width: 1365px;
+	text-align: center;
+	background-color: #7F7F7F;
+	color: white;
+	font-size: 36px;
+	letter-spacing: 70px;
+	font-style: none;
+	padding-top: 20px;
+	padding-left: 40px;
+
+}
+
+footer a {
+	color: #AFEEEE;
+	text-decoration: none;
+
+}
+
+#copyright {
+	color: white;
+	letter-spacing: 12px;
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+
+/* END Footer */
+
+/* START This is so that picture links don't show up as normal link style. It makes them invisible*/
+
+a[href="https://www.paperplanes.com/alaska-blog"] {
+	visibility: 0%;
+	opacity: 0%;
+	color: white;
+	background-color: white;
+	border-color: white;
+}
+
+a[href="https://www.paperplanes.com/paris-blog"] {
+	visibility: 0%;
+	opacity: 0%;
+	color: white;
+	background-color: white;
+	border-color: white;
+}
+
+/* END This is so that picture links don't show up as normal link style. It makes them invisible*/
+
+
+
+
+
+
